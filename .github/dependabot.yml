@@ -1,8 +1,8 @@
 version: 2
 updates:
 - package-ecosystem: npm
+  target_branch: dependencies
   directory: "/"
-  schedule:
-    interval: daily
-    time: "12:00"
+  schedule: "live"
   open-pull-requests-limit: 10
+  automerged_updates: yes
