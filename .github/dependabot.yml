@@ -3,6 +3,6 @@ updates:
 - package-ecosystem: npm
   target_branch: dependencies
   directory: "/"
-  schedule: "live"
+  update_schedule: "live"
   open-pull-requests-limit: 10
   automerged_updates: yes
